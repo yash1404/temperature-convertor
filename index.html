@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>temperature convertor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form id="form" onsubmit="calculattemp(); return false">
+
+    <h1>Convert Temperature </h1>
+    <input type="number" name="number" id="typenumber">
+    
+    <select id="temperaturettype">
+      <option value="cel">celsius</option>
+      <option value="far">fahrenhiet</option>
+    </select><br>
+    <input type="submit" class="submitbtn"><br />
+   <div class="divi">
+    <span id="storetemp"></span>
+    </div>
+  </form>
+
+
+
+
+
+  <script src="temperature.js"></script>
+</body>
+
+</html>
