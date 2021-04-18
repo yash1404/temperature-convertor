@@ -5,12 +5,12 @@ const value=temperaturettype.options [selecttype.selectedIndex].value;
 
 
 const celtofar=(cel)=>{
-  fahrenhiet= Math.round((cel* 9/5 + 32 ));
+  fahrenhiet= Math.round((cel* 9/5 )+ 32 );
   return fahrenhiet
 }
 
 const fartocel=(far)=>{
-  celsius= Math.round((far -32*5/9));
+  celsius= Math.round((far -32)*5/9);
   return celsius
 }
 
